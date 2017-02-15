@@ -1,0 +1,28 @@
+<!--
+  Assignment #2
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <h1 style="text-align:center">Aric Hudson</h1>
+  </body>
+  <p>
+    On a scale from 1 - 5, how ugly is this website?
+    <form id="howbad" action="index.html" method="get">
+      <script type="text/javascript" src ="JS/a2_listen.js"></script>
+      <input type="radio" name="howbad" value="1" id="howbad1" checked>1 - Definitely seen worse.<br>
+      <input type="radio" name="howbad" value="2" id="howbad2">2 - Your body looks like a McDonald's ad.<br>
+      <input type="radio" name="howbad" value="3" id="howbad3">3 - Is that... Comic Sans? AND Wingdings? Good god.<br>
+      <input type="radio" name="howbad" value="4" id="howbad4">4 - Jesus, dude, that's pretty goddammed ugly.<br>
+      <input type="radio" name="howbad" value="5" id="howbad5">5 - I can't tell anymore because I am now blind.<br>
+      <input type="button" value="Break it gently" id="easy" onclick="breakIt(1);">  <input type="submit" value="Be honest" action="verdict.php"  id="honest" onclick="breakIt(2);">
+    </form>
+
+  </p>
+</html>

@@ -1,0 +1,21 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  font-family: wingdings;
+  color: teal;
+  text-align: center
+}
+
+p {
+  color: yellow;
+  font-family: "Comic Sans MS",cursive,sans-serif;
+  font-size: 20px;
+}
+
+form {
+  color: yellow;
+  font-family: "Comic Sans MS",cursive,sans-serif;
+  font-size: 20px;
+}
